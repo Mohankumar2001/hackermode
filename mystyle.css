@@ -1,0 +1,143 @@
+.top {
+	background-image: linear-gradient(45deg, rgb(14, 4, 14), rgb(255,0,255)); 
+    height: 150px;
+
+}
+
+.text {
+	position: fixed;
+    width: 150px;
+    height: 500px;
+    top: 20px;
+    left: 350px;
+    background: #C4C4C4;
+    background-image: linear-gradient(45deg, yellow, rgb(255,239,213));
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.timer{
+	position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 20px;
+    left: 650px;
+    background: #C4C4C4;
+    background-image: linear-gradient(45deg, teal, lightcyan);
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px black;
+}
+.high {
+	position: absolute;
+    width: 150px;
+    height: 500px;
+    top: 20px;
+    left: 1000px;
+    background: #C4C4C4;
+    background-image: linear-gradient(45deg, rgb(0,250,154), khaki);
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px black;
+}
+/*.playarea {
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    height: 184px;
+    width: 224px;
+    background-color: red;
+    justify-content: center;
+    left: 625px;
+    font-size: xx-large;
+    box-shadow: 10px 10px 5px black;
+}*/
+.plate {
+    height: 40px;
+    width: 40px;
+    
+}
+.plate1 {
+    height: 40px;
+    width: 60px;
+    
+}
+
+button {
+    font-size: xx-large;
+    /*background-image: linear-gradient(45deg,rgb(200,200,200),rgb(40,40,40));*/
+    font-align: center;
+    color: lightgreen;
+    border-color: green;
+    height: 80px;
+    width: 150px;
+}
+button:hover{
+    background-color: green;
+    color: red;
+}
+body {
+    background-image: linear-gradient(45deg,rgb(245,44,1),rgb(224,242,4));
+}
+
+span {
+    font-size: xx-large;
+}
+
+#new {
+    background-color: blue;
+    background-image: linear-gradient(45deg, brown, red);
+}
+
+td div {
+    background-color: blue;
+    background-image: linear-gradient(45deg, brown, red);
+}
+
+#new:hover {
+    color: yellow;
+}
+
+#row0 {
+    position: fixed;
+    top:200px;
+    left: 600px;
+}
+
+#row1 {
+    position: fixed;
+    top:240px;
+    left: 600px;
+}
+
+#row2 {
+    position: fixed;
+    top:280px;
+    left: 600px;
+}
+
+#row3 {
+    position: fixed;
+    top:320px;
+    left: 600px;
+}
+
+#row4 {
+    position: fixed;
+    top:360px;
+    left: 600px;
+}
+
+#row5 {
+    position: fixed;
+    top:400px;
+    left: 600px;
+}
+
+#asdfghjk {
+    position: fixed;
+    left: 600px;
+}
+#asdfghjk div{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+}
